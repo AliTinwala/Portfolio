@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PortfolioAPI.App", "PortfolioAPI.App.csproj", "{86167022-60E1-4D51-A620-5571FEA60B12}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B83F50F8-3F9A-4A87-862A-B062A5764214} = {B83F50F8-3F9A-4A87-862A-B062A5764214}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortfolioAPI.Data", "..\PortfolioAPI.Data\PortfolioAPI.Data.csproj", "{B83F50F8-3F9A-4A87-862A-B062A5764214}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86167022-60E1-4D51-A620-5571FEA60B12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86167022-60E1-4D51-A620-5571FEA60B12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86167022-60E1-4D51-A620-5571FEA60B12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86167022-60E1-4D51-A620-5571FEA60B12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B83F50F8-3F9A-4A87-862A-B062A5764214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B83F50F8-3F9A-4A87-862A-B062A5764214}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B83F50F8-3F9A-4A87-862A-B062A5764214}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B83F50F8-3F9A-4A87-862A-B062A5764214}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60FAEA27-EB81-48D0-ADA6-4D4A2D284BDB}
+	EndGlobalSection
+EndGlobal
